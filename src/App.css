@@ -1,0 +1,42 @@
+/* src/App.css */
+
+.tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin-right: 0.5rem;
+}
+
+.tab.active {
+  background-color: #007BFF;
+  color: white;
+}
+
+.tab-content ul {
+  padding-left: 1rem;
+}
+
+.import-summary {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.import-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.import-btn:hover {
+  background-color: #218838;
+}
